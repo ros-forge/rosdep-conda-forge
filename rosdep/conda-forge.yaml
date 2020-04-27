@@ -52,6 +52,9 @@ graphviz:
 gtest:
   conda-forge:
     - gtest
+lcov:
+  conda-forge:
+    - lcov
 libboost-chrono-dev:
   conda-forge:
     - boost
