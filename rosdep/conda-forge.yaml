@@ -9,7 +9,7 @@ assimp:
     - assimp
 boost:
   conda-forge:
-    - boost
+    - "boost 1.72.*"
 bullet:
   conda-forge:
     - bullet
@@ -57,28 +57,28 @@ lcov:
     - lcov
 libboost-chrono-dev:
   conda-forge:
-    - boost
+    - "boost 1.72.*"
 libboost-date-time-dev:
   conda-forge:
-    - boost
+    - "boost 1.72.*"
 libboost-filesystem-dev:
   conda-forge:
-    - boost
+    - "boost 1.72.*"
 libboost-program-options:
   conda-forge:
-    - boost
+    - "boost 1.72.*"
 libboost-program-options-dev:
   conda-forge:
-    - boost
+    - "boost 1.72.*"
 libboost-regex-dev:
   conda-forge:
-    - boost
+    - "boost 1.72.*"
 libboost-system-dev:
   conda-forge:
-    - boost
+    - "boost 1.72.*"
 libboost-thread-dev:
   conda-forge:
-    - boost
+    - "boost 1.72.*"
 libconsole-bridge-dev:
   conda-forge:
     - console_bridge
