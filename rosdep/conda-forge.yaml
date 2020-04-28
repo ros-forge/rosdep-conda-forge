@@ -48,7 +48,7 @@ graphicsmagick:
     - graphicsmagick
 graphviz:
   conda-forge:
-    - graphviz
+    - "graphviz 2.38.*"
 gtest:
   conda-forge:
     - gtest
