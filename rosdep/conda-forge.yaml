@@ -9,6 +9,9 @@ asio:
 assimp:
   conda-forge:
     - assimp
+assimp-dev:
+  conda-forge:
+    - assimp
 boost:
   conda-forge:
     - "boost 1.72.*"
@@ -39,6 +42,12 @@ fastcdr:
 fastrtps:
   conda-forge:
     - fast-rtps
+gazebo11:
+  conda-forge:
+    - "gazebo 11.*"
+libgazebo11-dev:
+  conda-forge:
+    - "gazebo 11.*"
 git:
   conda-forge:
     - git
@@ -54,9 +63,17 @@ graphviz:
 gtest:
   conda-forge:
     - gtest
+gtk2:
+  conda-forge: []
+gtk3:
+  conda-forge:
+    - gtk3
 lcov:
   conda-forge:
     - lcov
+libboost-dev:
+  conda-forge:
+    - "boost 1.72.*"
 libboost-chrono-dev:
   conda-forge:
     - "boost 1.72.*"
@@ -86,6 +103,9 @@ libconsole-bridge-dev:
     - console_bridge
 libcunit-dev:
   conda-forge: []
+libfltk-dev:
+  conda-forge:
+    - fltk
 libfreetype6:
   conda-forge:
     - freetype
@@ -94,6 +114,18 @@ libfreetype6-dev:
     - freetype
 libgpgme-dev:
   conda-forge: []
+libjpeg:
+  conda-forge:
+    - libjpeg-turbo
+libogg:
+  conda-forge:
+    - libogg
+libogre:
+  conda-forge:
+    - "ogre 1.10.*"
+libogre-dev:
+  conda-forge:
+    - "ogre 1.10.*"
 libopencv-dev:
   conda-forge:
     - opencv 3*
@@ -124,6 +156,9 @@ libqt5-widgets:
 libssl-dev:
   conda-forge:
     - openssl
+libtheora:
+  conda-forge:
+    - libtheora
 liburdfdom-dev:
   conda-forge:
     - urdfdom
@@ -287,6 +322,9 @@ python3-numpy:
 python3-opencv:
   conda-forge:
     - py-opencv 3*
+python3-opengl:
+  conda-forge:
+    - pyopengl
 python3-paramiko:
   conda-forge:
     - paramiko
@@ -330,6 +368,9 @@ python3-rosdistro-modules:
   conda-forge:
     - rosdistro
 python3-rospkg:
+  conda-forge:
+    - rospkg
+python3-rospkg-modules:
   conda-forge:
     - rospkg
 python3-setuptools:
